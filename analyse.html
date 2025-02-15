@@ -313,34 +313,33 @@
                 practical: 0
             };
 
-            // Analysis based on answers
             answers.forEach((answer, index) => {
                 switch(index) {
-                    case 0: // Free time
+                    case 0: 
                         if (answer === 0) traits.analytical += 2;
                         if (answer === 1) traits.social += 2;
                         if (answer === 2) traits.practical += 2;
                         if (answer === 3) traits.creative += 2;
                         break;
-                    case 1: // Group situations
+                    case 1: 
                         if (answer === 0) traits.social += 2;
                         if (answer === 1) traits.analytical += 1;
                         if (answer === 2) traits.practical += 1;
                         if (answer === 3) traits.creative += 1;
                         break;
-                    case 2: // Problem solving
+                    case 2: 
                         if (answer === 0) traits.analytical += 2;
                         if (answer === 1) traits.creative += 2;
                         if (answer === 2) traits.social += 1;
                         if (answer === 3) traits.practical += 2;
                         break;
-                    case 3: // Organization
+                    case 3: 
                         if (answer === 0) traits.analytical += 2;
                         if (answer === 1) traits.practical += 1;
                         if (answer === 2) traits.creative += 2;
                         if (answer === 3) traits.practical += 2;
                         break;
-                    case 4: // Motivation
+                    case 4: 
                         if (answer === 0) traits.analytical += 1;
                         if (answer === 1) traits.practical += 2;
                         if (answer === 2) traits.social += 2;
